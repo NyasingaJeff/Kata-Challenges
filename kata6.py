@@ -29,6 +29,7 @@
 #     else:
 #         return print('NO')
 def tickets(people):
+        initial=[];
         if people[0] == 25:
             initial += people.pop(0)
             for cash in people:
