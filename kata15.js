@@ -19,3 +19,5 @@ function romanConverter(roman) {
     }).filter(e => { return !Number.isNaN(e) }).reduce((a, b) => a + b, 0);
 
 }
+
+romanConverter('lxvii')
